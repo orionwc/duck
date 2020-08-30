@@ -21,6 +21,11 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
             b b b b b b b b b b b b b b b b 
             . b b . . . . . . . . . . b b . 
             `)
+        if (true) {
+        	
+        } else {
+        	
+        }
         TreasureChestA_Open = true
         info.changeScoreBy(100)
         tiles.placeOnRandomTile(TreasureChestB, myTiles.tile1)
@@ -47,47 +52,87 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.TreasureChest2, function (sprite, otherSprite) {
     if (TreasureChestB_Open == false) {
-        TreasureChestB.setImage(img`
-            . b b b b b b b b b b b b b b . 
-            b e 4 4 4 4 4 4 4 4 4 4 4 4 4 b 
-            b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
-            b e e 4 4 4 4 4 4 4 4 4 4 e e b 
-            b b b b b b b d d b b b b b b b 
-            . b b b b b b c c b b b b b b . 
-            b c c c c c b c c b c c c c c b 
-            b c c c c c c b b c c c c c c b 
-            b c c c c c c c c c c c c c c b 
-            b c c c c c c c c c c c c c c b 
-            b b b b b b b b b b b b b b b b 
-            b e e e e e e e e e e e e e e b 
-            b e e e e e e e e e e e e e e b 
-            b c e e e e e e e e e e e e c b 
-            b b b b b b b b b b b b b b b b 
-            . b b . . . . . . . . . . b b . 
-            `)
+        if (true) {
+            TreasureChestB.setImage(img`
+                . b b b b b b b b b b b b b b . 
+                b e 4 4 4 4 4 4 4 4 4 4 4 4 4 b 
+                b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
+                b e e 4 4 4 4 4 4 4 4 4 4 e e b 
+                b b b b b b b d d b b b b b b b 
+                . b b b b b b c c b b b b b b . 
+                b c c c c c b c c b c c c c c b 
+                b c c c c c c b b c c c c c c b 
+                b c c c c c c c c c c c c c c b 
+                b c c c c c c c c c c c c c c b 
+                b b b b b b b b b b b b b b b b 
+                b e e e e e e e e e e e e e e b 
+                b e e e e e e e e e e e e e e b 
+                b c e e e e e e e e e e e e c b 
+                b b b b b b b b b b b b b b b b 
+                . b b . . . . . . . . . . b b . 
+                `)
+        } else if (false) {
+            TreasureChestB.setImage(img`
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                . . . . . . . . . . . . . . . . 
+                `)
+        }
         TreasureChestB_Open = true
         info.changeScoreBy(100)
         tiles.placeOnRandomTile(TreasureChestA, myTiles.tile1)
-        TreasureChestA.setImage(img`
-            . . b b b b b b b b b b b b . . 
-            . b e 4 4 4 4 4 4 4 4 4 4 e b . 
-            b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
-            b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
-            b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
-            b e e 4 4 4 4 4 4 4 4 4 4 e e b 
-            b e e e e e e e e e e e e e e b 
-            b e e e e e e e e e e e e e e b 
-            b b b b b b b d d b b b b b b b 
-            c b b b b b b c c b b b b b b c 
-            c c c c c c b c c b c c c c c c 
-            b e e e e e c b b c e e e e e b 
-            b e e e e e e e e e e e e e e b 
-            b c e e e e e e e e e e e e c b 
-            b b b b b b b b b b b b b b b b 
-            . b b . . . . . . . . . . b b . 
-            `)
-        TreasureChestA_Open = false
-        pause(1000)
+        if (true) {
+            TreasureChestA.setImage(img`
+                . . b b b b b b b b b b b b . . 
+                . b e 4 4 4 4 4 4 4 4 4 4 e b . 
+                b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
+                b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
+                b e 4 4 4 4 4 4 4 4 4 4 4 4 e b 
+                b e e 4 4 4 4 4 4 4 4 4 4 e e b 
+                b e e e e e e e e e e e e e e b 
+                b e e e e e e e e e e e e e e b 
+                b b b b b b b d d b b b b b b b 
+                c b b b b b b c c b b b b b b c 
+                c c c c c c b c c b c c c c c c 
+                b e e e e e c b b c e e e e e b 
+                b e e e e e e e e e e e e e e b 
+                b c e e e e e e e e e e e e c b 
+                b b b b b b b b b b b b b b b b 
+                . b b . . . . . . . . . . b b . 
+                `)
+        } else if (false) {
+            TreasureChestA.setImage(img`
+                . . . . . . . . . . . . . . . . 
+                . . . f f f f f f f f f . . . . 
+                . . f f 5 5 5 5 5 5 5 f f . . . 
+                . f f 5 5 5 5 5 5 5 5 5 f f . . 
+                f f 5 5 4 4 4 4 4 4 4 5 5 f f . 
+                f 5 5 4 5 5 5 5 5 5 5 5 5 5 f . 
+                f 5 5 4 5 5 5 5 5 5 5 5 5 5 f . 
+                f 5 5 4 5 5 5 5 5 5 5 5 5 5 f . 
+                f 5 5 4 5 5 5 5 5 5 5 5 5 5 f . 
+                f 5 5 4 5 5 5 5 5 5 5 5 5 5 f . 
+                f 5 5 5 5 5 5 5 5 5 5 5 5 5 f . 
+                f 5 5 5 5 5 5 5 5 5 5 5 5 5 f . 
+                f f 5 5 5 5 5 5 5 5 5 5 5 f f . 
+                . f f 5 5 5 5 5 5 5 5 5 f f . . 
+                . . f f 5 5 5 5 5 5 5 f f . . . 
+                . . . f f f f f f f f f . . . . 
+                `)
+        }
     }
 })
 let TreasureChestB_Open = false
@@ -259,5 +304,11 @@ game.onUpdate(function () {
             . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
             . . . . . . . . . . . . . . . . . . . . . . . . . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
             `, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile12,myTiles.tile13,myTiles.tile11,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile17,myTiles.tile18,myTiles.tile19,myTiles.tile20,myTiles.tile22,myTiles.tile23,myTiles.tile24,myTiles.tile26,myTiles.tile27,myTiles.tile30,myTiles.tile31,myTiles.tile32,myTiles.tile33,myTiles.tile34,myTiles.tile35], TileScale.Sixteen))
+    } else if (info.score() == 12000) {
+    	
+    } else if (info.score() == 12345) {
+    	
+    } else {
+    	
     }
 })
